@@ -11,7 +11,6 @@ $obj = json_decode($json); // on décode le json
 
 echo '<div class="container">
         <div class="row">';
-
 foreach ($obj->shows as $show) {
     echo ' 
         <div class="col-md-2">
