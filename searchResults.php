@@ -5,6 +5,9 @@
 <link rel="stylesheet" href="./css/templatemo-sixteen.css">
 
 <?php 
+// If $_POST[selection ] == Movies 
+    //$type = 1
+
 $texte = isset($_POST["titre"]) ? $_POST["titre"] : NULL; // Façon d'écrire if/else
 $json = file_get_contents('http://api.betaseries.com/search/shows?key=1d4db8125fb1&text='.$texte.''); // On fetch le résultat
 $obj = json_decode($json); // on décode le json
