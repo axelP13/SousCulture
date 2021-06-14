@@ -40,7 +40,7 @@ echo('
         <form name="form" method="POST" action="./nouveauFilm.php">
             <div class="row">
                 <div class="col min-height: 100%">
-                    <textarea class="md-textarea form-control" spellcheck="true" name="texte" placeholder="Description du site" rows="5"></textarea>
+                    <textarea class="md-textarea form-control" spellcheck="true" name="texte" placeholder="Critique du film" rows="5"></textarea>
                 </div>
             </div>
             </br>
