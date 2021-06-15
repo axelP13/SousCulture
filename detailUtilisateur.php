@@ -11,10 +11,9 @@ $id = isset($_GET["id"]) ? $_GET["id"] : NULL; // Façon d'écrire if/else
 $json = file_get_contents('./MesFilms.json'); // On fetch le résultat
 $obj = json_decode($json); // on décode le json
 
-// print_r($json);
-// foreach ($obj as $show) {
-foreach ($obj->shows as $show) {
-    if($show->id == $id){
+
+foreach ($obj->shows as $show) { 
+    if($show->id == $id){ //Gestion sommaire des plusieurs critiques sur le même film
         echo('
             <div class="container-fluid h-100">
                 </br>

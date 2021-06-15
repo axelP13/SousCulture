@@ -24,8 +24,8 @@
     $json = file_get_contents("./MesFilms.json");
     $obj = json_decode($json); // on décode le json
     
-    echo '
-    </br></br></br></br>
+    echo ' 
+    </br></br></br></br> 
     <div class="container">
     <div class="row">';
     foreach ($obj->shows as $show) {
