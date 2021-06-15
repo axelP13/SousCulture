@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="./css/textarea.css">
 
 <?php
-$type = $_POST["radio"];
+$type = $_GET["type"];
 if($type == "show") {
 $id = isset($_GET["id"]) ? $_GET["id"] : NULL; // Façon d'écrire if/else
 $json = file_get_contents('http://api.betaseries.com/shows/display?key=1d4db8125fb1&id='.$id); // On fetch le résultat
