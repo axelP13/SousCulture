@@ -37,10 +37,10 @@ echo('
         </div>
         </br>
         </br>
-        <form name="form" method="POST" action="./nouveauFilm.php">
+        <form name="form" method="POST" action="./nouveauFilm.php?id='.$obj->show->id.'&title='.$obj->show->title.'&poster='.$obj->show->images->poster.'&description='.$obj->show->description.'">
             <div class="row">
                 <div class="col min-height: 100%">
-                    <textarea class="md-textarea form-control" spellcheck="true" name="texte" placeholder="Critique du film" rows="5"></textarea>
+                    <textarea class="md-textarea form-control" spellcheck="true" name="critique" placeholder="Critique du film" rows="5"></textarea>
                 </div>
             </div>
             </br>
