@@ -19,9 +19,9 @@ $obj = json_decode($json); // on décode le json en objet
         echo ' 
             <div class="col-md-2">
                 <div class="product-item">
-                    <a href="./detail.php?id='.$show->id.'"><img src="'.$show->poster.'" alt="Image"></a>
+                    <a href="./detail.php?id='.$show->id.'&type='.$type.'"><img src="'.$show->poster.'" alt="Image"></a>
                     <div class="down-content">
-                        <a href="./detail.php?id='.$show->id.'"><h4>'.$show->title.'</h4></a>
+                        <a href="./detail.php?id='.$show->id.'&type='.$type.'"><h4>'.$show->title.'</h4></a>
                     </div>
                 </div>
             </div>
@@ -41,9 +41,9 @@ $obj = json_decode($json); // on décode le json
         echo ' 
             <div class="col-md-2">
                 <div class="product-item">
-                    <a href="./detail.php?id='.$movie->id.'"><img src="'.$movie->poster.'" alt="Image"></a>
+                    <a href="./detail.php?id='.$movie->id.'&type='.$type.'"><img src="'.$movie->poster.'" alt="Image"></a>
                     <div class="down-content">
-                        <a href="./detail.php?id='.$movie->id.'"><h4>'.$movie->title.'</h4></a>
+                        <a href="./detail.php?id='.$movie->id.'&type='.$type.'"><h4>'.$movie->title.'</h4></a>
                     </div>
                 </div>
             </div>
