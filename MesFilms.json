@@ -1,25 +1,20 @@
 {
     "shows": [
         {
-            "id": "28664",
-            "title": "Escape the Matrix",
-            "description": "You cannot escape the matrix unless you know you are in it. Join David Icke as he unravels the nature of the reality that we have been taught to believe is truth, through a lifetime of deep programming.",
-            "poster": "https:\/\/pictures.betaseries.com\/fonds\/poster\/14080986b1472b87c6373c3afea91aec.jpg",
-            "critique": "Coucou axel"
+            "id": "21000",
+            "type": "show",
+            "title": "WandaVision",
+            "description": "Wanda Maximoff et Vision, deux super-h\u00e9ros menant une vie des plus normales, commencent \u00e0 se douter que celle-ci n'est pas aussi parfaite qu\u2019elle en a l'air.",
+            "poster": "https:\/\/pictures.betaseries.com\/fonds\/poster\/f350e3ad53e472d5eaed667b1554cd1f.jpg",
+            "critique": "cool"
         },
         {
-            "id": "15354",
-            "title": "Marvel's Cloak ",
-            "description": "Tir\u00e9e d'un comics, la s\u00e9rie suit deux adolescents de deux mondes diff\u00e9rents qui en plus de devoir subir leurs hormones et leur attraction mutuelle vont devoir composer avec des nouveaux pouvoirs. Tandy Bowen peut lancer des \u00e9clairs de lumi\u00e8re tandis que Tyrone Johnson peut envelopper les gens autour de lui dans le noir le plus total.",
-            "poster": "https:\/\/pictures.betaseries.com\/fonds\/poster\/15504b1ede87e45416665179336bcf23.jpg",
-            "critique": "C'est vraiment de la merde, mais le cardigan est sympa."
-        },
-        {
-            "id": "13736",
-            "title": "Legion",
-            "description": "Depuis l'adolescence, David Haller est consid\u00e9r\u00e9 comme schizophr\u00e8ne. Au cours d'un de ses nombreux s\u00e9jours en h\u00f4pital psychiatrique, une \u00e9trange rencontre avec un patient lui fait prendre conscience que les voix qu'il entend et les visions qu'il a pourraient \u00eatres r\u00e9elles...",
-            "poster": "https:\/\/pictures.betaseries.com\/fonds\/poster\/8ce7929bc99f62d94051e6ff52ff7cc1.jpg",
-            "critique": "Pas  vu. lulu"
+            "id": "393",
+            "type": null,
+            "title": "Thor",
+            "description": "Thor, le h\u00e9ros du nouveau film issu de l'univers Marvel, est un guerrier tout-puissant et arrogant dont les actes t\u00e9m\u00e9raires font rena\u00eetre de nos jours un conflit ancestral. \u00c0 cause de cela, il est banni du Royaume mythique d\u2019Asgard et est condamn\u00e9 \u00e0 vivre parmi les humains. Mais lorsque les forces du Mal d\u2019Asgard s\u2019appr\u00eatent \u00e0 envahir la Terre, Thor d\u00e9couvre enfin ce que signifie",
+            "poster": "https:\/\/pictures.betaseries.com\/films\/affiches\/original\/393.jpg",
+            "critique": "il est bo le blond"
         }
     ]
 }

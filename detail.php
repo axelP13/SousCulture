@@ -38,7 +38,7 @@ echo('
         </div>
         </br>
         </br>
-        <form name="form" method="POST" action="./nouveauFilm.php?id='.$obj->show->id.'&title='.$obj->show->title.'&poster='.$obj->show->images->poster.'&description='.$obj->show->description.'">
+        <form name="form" method="POST" action="./nouveauFilm.php?id='.$obj->show->id.'&title='.$obj->show->title.'&poster='.$obj->show->images->poster.'&description='.$obj->show->description.'&type='.$type.'">
             <div class="row">
                 <div class="col min-height: 100%">
                     <textarea class="md-textarea form-control" spellcheck="true" name="critique" placeholder="Critique du film" rows="5"></textarea>
@@ -85,7 +85,7 @@ else {
             </div>
             </br>
             </br>
-            <form name="form" method="POST" action="./nouveauFilm.php?id='.$obj->movie->id.'&title='.$obj->movie->title.'&poster='.$obj->movie->poster.'&description='.$obj->movie->synopsis.'">
+            <form name="form" method="POST" action="./nouveauFilm.php?id='.$obj->movie->id.'&title='.$obj->movie->title.'&poster='.$obj->movie->poster.'&description='.$obj->movie->synopsis.'&type='.$type.'">
                 <div class="row">
                     <div class="col min-height: 100%">
                         <textarea class="md-textarea form-control" spellcheck="true" name="critique" placeholder="Critique du film" rows="5"></textarea>
