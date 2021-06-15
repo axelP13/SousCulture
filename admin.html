@@ -23,8 +23,16 @@
         </nav> 
 
         <!-- BARRE DE NAVIGATION -->
+        <div class="row">
         <form name="form" class="d-flex" method="POST" action="searchResults.php">
             <input class="container-col-sm-4" name="titre" type="text" placeholder="id Beta Series">
             <button class="btn btn-secondary my-2 my-sm-0" type="submit"> recherche </button>
+          </div>
+            <div class="row">
+                <div class="col"> 
+                  <input type="radio" class="form-check-input" name="radio" id="movie" value="movie" checked=""> Film 
+                  <input type="radio" class="form-check-input" name="radio" id="show" value="show" checked=""> Serie
+                </div> 
+              </div>              
           </form>
 </body>
